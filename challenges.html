@@ -1,0 +1,264 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+<style>
+    html{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            
+        }
+        body{
+            background-color: #121F3D;
+        }
+        p{
+            font-size:x-large;
+        }
+    .logo{
+        height: 25px;
+        margin-left: 25%;
+        display: inline;
+        position:relative;
+        left:-80px;
+        }
+        
+    .top-nav{
+        display: flex;
+       
+        height: 75px;
+        box-shadow: 0px 15px 10px -15px #111;
+        align-items: center;
+        
+    }
+    
+    .main-title{
+        display: inline;
+        margin-left: 5px;
+        color: white;
+        position: relative;
+        left: -70px;
+        }
+    .button-challenge{
+        position: relative;
+        display: inline;
+        left: 800px;
+        border: 1px solid #5476ac;
+        background-color: #1E293B;
+        color: #0EA0E2;
+        height: 40px;
+        width: 95px;
+        border-radius: 10px;
+        font-weight: bold;
+
+        }
+        .circle{
+            border-style: 1px solid red;
+            border-radius: 50%;
+            height: 10px;
+            width: 10px;
+            background-color: red;
+            position: relative;
+            left: 790px;
+            bottom: 15px;
+        }
+    .divisor{
+        margin-top: 10px;
+        border: 2px solid blue;
+        box-shadow: 0px 5px 9px -1px white;
+    }
+    .description{
+       display: flex; 
+       flex-direction: column;
+       grid-column: 1;
+       width: 668px;
+       height: 136px;
+       color: white;
+        }
+    .main-section{
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        gap: 150px;
+        margin-top: 10px;
+        
+        }
+    .cup{
+        
+        width: 200px;
+        height: 200px;
+        margin-top: 30px;
+    }
+    .materias{
+        display: grid;
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: 1fr 1fr 1fr;
+        gap: 30px;
+        width: 1100px;
+        margin-top: 50px;
+    }
+    .cuadradito{
+        border: 1px solid black;
+        width: 60px;
+        height: 60px;
+        position: relative;
+        top: 30px;
+        left: 20px;
+    }
+    .texto-cuadradito{
+        display: flex;
+        position: relative;
+        left: 100px;
+        gap: 40px;
+        top: 10px;
+    }
+        .card_estructura{
+        border: 3px solid grey;
+        height: 120px;
+        padding: 0;
+        border-radius: 10px;
+        background-color: white;
+    }
+    .materias-container{
+        display: flex;
+        justify-content: center;
+        margin-top: -10px;
+    }
+    .pronto{
+        background-color: yellow;
+        position: relative;
+        right: 60px;
+        bottom: 50px;
+
+    }
+    .nombre-materia{
+        position: absolute;
+        bottom:40px;
+        font-size: 50px;
+    }
+    .card_estructura:hover{
+        background-color: #D1D5DB;
+    }
+    .div-flex{
+        display: flex;
+        align-items: center;
+    }
+    p{
+        position: relative;
+        left: -42px;
+        margin-bottom: 50px;
+    }
+    .desafio-title{
+        font-size: 50px;
+        margin-bottom: -10px;
+        margin-top: 10px;
+        position: relative;
+        left: -45px;
+    }
+</style>
+</head>
+<body>
+    <nav class="top-nav">
+        
+        <img src="platzi_logo.avif" alt="platzi logo" class="logo">
+        <h1 class="main-title">Super Hero</h1>
+        <button class="button-challenge">Desafios</button>
+        <div class="circle"></div>
+    </nav>
+    <section class="main-section">
+        <section class="description">
+            <h1 class="desafio-title">
+              Desafios de codigo
+            </h1>
+            <p>
+            Pon a prueba tus conocimientos con desafíos de código y práctica para tu próxima entrevista técnica o para desarrollar esas habilidades técnicas que te harán crecer profesionalmente, no te preocupes si te quedas atascado, inténtalo, te recomendamos la clase específica en Platzi que necesitas para resolverlo.
+            </p>
+        
+    </section>
+    <img src="https://jshero.platzi.com/_next/image?url=%2Ficons%2Ftrophy-dynamic-premium.png&w=256&q=75" alt="" class="cup">
+    </section>
+    <div class="materias-container">
+        <div class="materias">
+            <div class="c1 card_estructura">
+                <div class="cuadradito"></div>
+                <div class="texto-cuadradito">
+                    <span>37 ejercicios</span>
+                    <span>4 conceptos</span>
+                    <span class="pronto">Pronto</span>
+                    <span class="nombre-materia">JS</span>
+                </div>
+                
+            </div>    
+            <div class="c2 card_estructura">
+                <div class="cuadradito"></div>
+                <div class="texto-cuadradito">
+                    <span>37 ejercicios</span>
+                    <span>4 conceptos</span>
+                    <span class="pronto">Pronto</span>
+                    
+                </div>
+            </div>    
+            <div class="c3 card_estructura">
+                <div class="cuadradito"></div>
+                <div class="texto-cuadradito">
+                    <span>37 ejercicios</span>
+                    <span>4 conceptos</span>
+                    <span class="pronto">Pronto</span>
+                </div>
+            </div>    
+            <div class="c4 card_estructura">
+                <div class="cuadradito"></div>
+                <div class="texto-cuadradito">
+                    <span>37 ejercicios</span>
+                    <span>4 conceptos</span>
+                    <span class="pronto">Pronto</span>
+                </div>
+            </div>    
+            <div class="c5 card_estructura">
+                <div class="cuadradito"></div>
+                <div class="texto-cuadradito">
+                    <span>37 ejercicios</span>
+                    <span>4 conceptos</span>
+                    <span class="pronto">Pronto</span>
+                </div>
+            </div>    
+            <div class="c6 card_estructura">
+                <div class="cuadradito"></div>
+                <div class="texto-cuadradito">
+                    <span>37 ejercicios</span>
+                    <span>4 conceptos</span>
+                    <span class="pronto">Pronto</span>
+                </div>
+            </div>    
+            <div class="c7 card_estructura">
+                <div class="cuadradito"></div>
+                <div class="texto-cuadradito">
+                    <span>37 ejercicios</span>
+                    <span>4 conceptos</span>
+                    <span class="pronto">Pronto</span>
+                </div>
+            </div>    
+            <div class="c8 card_estructura">
+                <div class="cuadradito"></div>
+                <div class="texto-cuadradito">
+                    <span>37 ejercicios</span>
+                    <span>4 conceptos</span>
+                    <span class="pronto">Pronto</span>
+                </div>
+            </div>    
+            <div class="c9 card_estructura">
+                <div class="cuadradito"></div>
+                <div class="texto-cuadradito">
+                    <span>37 ejercicios</span>
+                    <span>4 conceptos</span>
+                    <span class="pronto">Pronto</span>
+                </div>
+            </div>    
+        
+    </div></div>
+    
+</body>
+</html>
